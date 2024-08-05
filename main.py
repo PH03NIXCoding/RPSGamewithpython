@@ -1,7 +1,7 @@
 from random import randint
 import sys,time, os
 t = ["r", "p", "s"]
-AlexMessage="Hi I'm Alex."
+print("Hi I'm Alex")
 message="I like playing Rock Paper Scissors. We can play. But first..."
 for char in message:
     sys.stdout.write(char)
