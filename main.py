@@ -11,14 +11,12 @@ Alex = t[randint(0,2)]
 player = False
 name = input("\nWhat's your name?\n")
 
-
 AlexMessage="Nice to meet you."
 AlexMessage="Whenever you want to reset the score just say 'reset' and now... Let's play!!!"
 for char in AlexMessage:
     sys.stdout.write(char)
     sys.stdout.flush()
     time.sleep(0.07)
-
 
 You = 0
 PC = 0
@@ -99,10 +97,7 @@ while player == False:
       print("\nOkay let's start again")
     else:
         message = "That's not allowed. Who doesn't know how to play Rock Paper Scissors? Children are taught to play this game. I'm not that smart. I'm just a computer. I'm going to type out this long message as punishment for doing something dumb. Now go play the right way! :("
-    for char in message:
-        sys.stdout.write(char)
-        sys.stdout.flush()
-        time.sleep(0.1)
+        
+
     player = False
     Alex = t[randint(0,2)]
-    
